@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <PI_Removeallorder>
+            <active>true</active>
+            <codePool>community</codePool>
+        </PI_Removeallorder>
+    </modules>
+</config> 

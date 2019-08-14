@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <PI_Removeallorder>
+            <version>1.0.0</version>
+        </PI_Removeallorder>
+    </modules>
+	<admin>
+        <routers>
+			<removeallorder>
+				<use>admin</use>
+				<args>
+					<module>PI_Removeallorder</module>
+					<frontName>removeallorder</frontName>
+				</args>
+			</removeallorder>
+        </routers>
+    </admin>
+	<global>
+		<blocks>
+            <adminhtml>
+                <rewrite>
+					<sales_order>PI_Removeallorder_Block_Adminhtml_Sales_Order</sales_order>
+                </rewrite>
+				<rewrite>
+					<sales_order_grid>PI_Removeallorder_Block_Adminhtml_Sales_Order_Grid</sales_order_grid>
+				</rewrite>		 
+			   <rewrite>
+					<sales_order_view>PI_Removeallorder_Block_Adminhtml_Sales_Order_View</sales_order_view>
+				</rewrite>
+            </adminhtml>
+        </blocks>
+		
+	</global>
+</config>

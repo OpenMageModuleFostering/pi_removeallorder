@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>PI_Removeallorder</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension provides the functionality of deleting all the orders on a single button click. </summary>
+    <description>The extension provides the functionality of removing all the orders on a single button click. This extension is primarily targeted for Developers but it can be very handy and useful for Merchants, in certain circumstances. The extension provides a button "Remove all Orders" under Sales-&gt;Orders. The functionality of removing multiple orders is usually required by the Developers when they are done with the development and the store is ready to be made live. Often, during the development phase many dummy orders are placed which needs to be removed before making a web store live.</description>
+    <notes>This is a stable version.</notes>
+    <authors><author><name>pureimagination</name><user>pureimagination</user><email>johncarter15oct@gmail.com</email></author></authors>
+    <date>2014-11-23</date>
+    <time>06:52:02</time>
+    <contents><target name="magecommunity"><dir name="PI"><dir name="Removeallorder"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="6573cff113998fca95fa8c2438dcb9b9"/><dir name="Render"><file name="Delete.php" hash="57c01f6d881b0471f9640adfe8a3ae84"/></dir><file name="View.php" hash="449b9380f6cde6d6e394be7f0329ab59"/></dir><file name="Order.php" hash="d1ad76304bec4c262dcae9eee5791ba3"/></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="RemoveallorderController.php" hash="22bd9e6351551d04b419ef0502bda634"/></dir></dir><dir name="etc"><file name="config.xml" hash="11201216f9d7bf4fd23df4fa2db6dbad"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="PI_Removeallorder.xml" hash="f71830813c4d1bd8f11b24cf5fd4d8d9"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

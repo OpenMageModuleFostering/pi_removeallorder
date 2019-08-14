@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/PI_Removeallorder",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "This extension provides the functionality of deleting all the orders on a single button click. ",
+    "authors": [
+    {
+        "name": "pureimagination",
+        "email": "johncarter15oct@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
